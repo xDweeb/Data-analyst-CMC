@@ -8,9 +8,6 @@ Ce fichier README contient les instructions détaillées pour réaliser le TP en
 3. Vérifiez l'installation en ouvrant R et en exécutant des commandes simples comme `getwd()` pour vérifier le répertoire de travail.
 4. Lancez RStudio et exécutez également des commandes comme `ls()` pour vérifier le bon fonctionnement.
 
-Placez ici vos captures d'écran de l'installation réussie :
-- [Capture d'écran R installation]
-- [Capture d'écran RStudio installation]
 
 ## Étape 2 : Création et exécution d'un fichier R
 1. Créez un fichier R nommé `test.R` dans le répertoire de votre choix. Pour cela, vous pouvez définir le répertoire de travail avec la commande `setwd()` :
@@ -33,9 +30,6 @@ Placez ici vos captures d'écran de l'installation réussie :
    message()
    ```
 
-Placez ici vos captures d'écran du fichier R et de l'exécution des commandes :
-- [Capture d'écran Hello World]
-- [Capture d'écran message() exécution]
 
 ## Étape 3 : Travail avec des variables et calculs
 1. Créez un fichier nommé `test2.R` et déclarez plusieurs variables, comme suit :
@@ -62,9 +56,5 @@ Placez ici vos captures d'écran du fichier R et de l'exécution des commandes :
    ```r
    nomsAssiduiteSup15 <- nomsStagiaires[notesAssiduite > 15]
    ```
-
-Placez ici vos captures d'écran des calculs et résultats :
-- [Capture d'écran calcul de la moyenne]
-- [Capture d'écran assiduité]
 
 ---
