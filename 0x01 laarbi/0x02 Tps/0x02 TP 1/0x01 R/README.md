@@ -8,11 +8,10 @@ Ce fichier README contient les instructions détaillées pour réaliser le TP en
 3. Vérifiez l'installation en ouvrant R et en exécutant des commandes simples comme `getwd()` pour vérifier le répertoire de travail.
 4. Lancez RStudio et exécutez également des commandes comme `ls()` pour vérifier le bon fonctionnement.
 
-
 ## Étape 2 : Création et exécution d'un fichier R
 1. Créez un fichier R nommé `test.R` dans le répertoire de votre choix. Pour cela, vous pouvez définir le répertoire de travail avec la commande `setwd()` :
    ```r
-   setwd("C:/Users/xdweb/OneDrive/Documents/DATA-ANALYST/0x01 laarbi/0x02 Tps/0x02 TP 1")
+   setwd("C:/Users/xdweb/OneDrive/Documents/Data-analyst-CMC/0x01 laarbi/0x02 Tps/0x02 TP 1")
    ```
 2. Dans `test.R`, écrivez le code suivant :
    ```r
@@ -29,7 +28,6 @@ Ce fichier README contient les instructions détaillées pour réaliser le TP en
    ```r
    message()
    ```
-
 
 ## Étape 3 : Travail avec des variables et calculs
 1. Créez un fichier nommé `test2.R` et déclarez plusieurs variables, comme suit :
@@ -56,5 +54,38 @@ Ce fichier README contient les instructions détaillées pour réaliser le TP en
    ```r
    nomsAssiduiteSup15 <- nomsStagiaires[notesAssiduite > 15]
    ```
+
+## Commandes R Utiles
+Voici quelques commandes R supplémentaires qui peuvent être utiles :
+
+- **Créer et éditer un fichier** :
+  ```r
+  file.edit("test.R")
+  ```
+
+- **Vérifier si un répertoire existe** :
+  ```r
+  dir.exists("C:/Users/xdweb/OneDrive/Documents/Data-analyst-CMC/0x01 laarbi/0x02 Tps/0x02 TP 1")
+  ```
+
+- **Définir le répertoire de travail** :
+  ```r
+  setwd("C:/Users/xdweb/OneDrive/Documents/Data-analyst-CMC/0x01 laarbi/0x02 Tps/0x02 TP 1")
+  ```
+
+- **Obtenir le répertoire de travail actuel** :
+  ```r
+  getwd()
+  ```
+
+- **Charger un script R** :
+  ```r
+  source('test.R')
+  ```
+
+- **Supprimer un fichier** :
+  ```r
+  file.remove("test.R")
+  ```
 
 ---
